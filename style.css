@@ -1,14 +1,18 @@
-#clock {
-}
-
 #clock img {
+  position: absolute;
+/*  if you inspect the elements you see they are all the same size.
+  if you set the position to absolute for the container div, everything else will inheret that.
+  so now everything is all aligned.*/
 }
-
+/*using z-index to make things lay the way I want*/
 #hour {
+  z-index: 1;
 }
 
 #minute {
+  z-index: 2;
 }
 
 #second {
+  z-index: 3;
 }
